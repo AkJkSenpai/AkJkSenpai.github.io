@@ -1,7 +1,9 @@
 body {
-    background-color: aqua;
-}
-
-h1 {
-    text-align: center;
-}
+    background-color: powderblue;
+  }
+  h1 {
+    color: blue;
+  }
+  p {
+    color: red;
+  }
