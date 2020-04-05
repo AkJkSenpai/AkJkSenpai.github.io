@@ -1,6 +1,5 @@
 body {
-    margin: 0;
-    background-color: red;
+  margin: 0;
 }
 
 h1 {
@@ -31,3 +30,18 @@ h1 {
   .links li a:hover {
     background-color: #111;
   }
+
+  .active {
+    background-color: grey;
+  }
+
+  .row {
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 2em;
+    column-count: 2;
+    column-width: 50%;
+    column-gap: 2em;
+    
+  }
+
