@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="yhteydenotto.css">
+</head>
+
+<body>
+    <header class="container">
+        <div class="row">
+            <a href="index.html">
+                <img src="AKNO14.png" alt="logo" height="50px" width="50px">
+            </a>
+            <h2 class="col-sm-4">AKNO</h2>
+            <nav class="col-sm-8 text-right">
+                <a class="link" href="palvelut.html">Palvelut</a>
+                <a class="link" href="tietoa_meista.html">Tietoa meistä</a>
+                <a class="link" href="yhteydenotto.html">Yhteydenotto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="jumbotron">
+        <div class="container">
+            <div class="row text-center">
+                <h2>Ota yhteyttä</h2>
+                <h3>Ehkä joku pieni teksti</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row text-center">
+            <h4>Ota yhteyttä jättämällä yhteystietosi</h4>
+            <form action="contact.php" method="POST">
+                <input type="text" id="name" name="name" value="Nimi"><br>
+                <input type="email" name="email" id="email" value="Sähköpostiosoite"><br>
+                <select name="palvelut" id="palvelut">
+                    <option value="blank">Valitse palvelu</option>
+                    <option value="nettisivut">Nettisivut</option>
+                    <option value="it-tuki">IT-tuki</option>
+                    <option value="mainokset">Mainokset</option>
+                    <option value="some">Sosiaalisen median tuki</option>
+                </select><br>
+                <textarea name="tarkennus" id="tarkennus" cols="20" rows="10">
+                    Kerro tarkemmin palvelun tarpeesta
+                </textarea><br>
+                <input type="submit" value="Lähetä">
+            </form>
+        </div>
+    </section>
+
+    <footer class="container">
+        <div class="row">
+            <p class="col-sm-4">2020 AKNO</p>
+            <a class="col-sm-8" href="#">Tietosuojaseloste</a>
+        </div>
+    </footer>
+</body>

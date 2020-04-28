@@ -1,0 +1,62 @@
+/*Header*/
+header {
+    padding: 20px 0;
+}
+
+header .row{
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .link{
+    padding: 0 20px;
+    margin: 0;
+    font-size: 18px;
+}
+
+/*section jumbotron*/
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url("1.jpg");
+    background-size: cover;
+    color: #ffffff;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+/*secition container*/
+section .row img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.col-sm-6 {
+    margin: 0 0 30px;
+  }
+
+.btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: #ffffff;
+    text-shadow: none;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    margin: 0px;
+}
+
+/*footer*/
+footer {
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+footer .col-sm-8{
+    display: flex;
+    justify-content: flex-end;
+}
