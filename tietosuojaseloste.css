@@ -1,0 +1,53 @@
+/*Header*/
+header {
+    padding: 20px 0;
+}
+
+header .row{
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .link{
+    padding: 0 20px;
+    margin: 0;
+    font-size: 18px;
+}
+
+/*section container*/
+section ul {
+    list-style: none;
+}
+
+section li{
+    padding: 4px;
+    font-size: 16px;
+}
+
+section span {
+    font-weight: bold;
+}
+
+section h3 {
+    text-decoration: underline;
+}
+
+.important{
+    list-style: disc !important;
+}
+
+/*Footer*/
+footer {
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+footer .col-sm-8{
+    display: flex;
+    justify-content: flex-end;
+}
