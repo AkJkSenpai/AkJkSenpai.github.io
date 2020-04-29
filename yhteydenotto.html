@@ -33,22 +33,21 @@
     </section>
 
     <section class="container">
-        <div class="row text-center">
+        <div class="row">
             <h4>Ota yhteyttä jättämällä yhteystietosi</h4>
-            <form action="contact.php" method="POST">
-                <input type="text" id="name" name="name" value="Nimi"><br>
-                <input type="email" name="email" id="email" value="Sähköpostiosoite"><br>
-                <select name="palvelut" id="palvelut">
-                    <option value="blank">Valitse palvelu</option>
-                    <option value="nettisivut">Nettisivut</option>
-                    <option value="it-tuki">IT-tuki</option>
-                    <option value="mainokset">Mainokset</option>
-                    <option value="some">Sosiaalisen median tuki</option>
-                </select><br>
-                <textarea name="tarkennus" id="tarkennus" cols="20" rows="10">
-                    Kerro tarkemmin palvelun tarpeesta
-                </textarea><br>
-                <input type="submit" value="Lähetä">
+            <form action="contact.php">
+                <div class="form-group">
+                    <label for="nimi">Nimi</label>
+                    <input type="text" class="form-control" id="nimi" placeholder="Lisää nimesi">
+                </div>
+                <div class="form-group">
+                    <label for="sposti">Sähköpostiosite</label>
+                    <input type="email" id="sposti" class="form-control" placeholder="Lisää sähköpostiosoite">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="tarkennus" cols="30" rows="10" placeholder="Kerro millaista palvelua tarvitsisit"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Lähetä</button>
             </form>
         </div>
     </section>
