@@ -35,19 +35,19 @@
     <section class="container">
         <div class="row">
             <h4>Ota yhteyttä jättämällä yhteystietosi</h4>
-            <form action="contact.php">
+            <form action="contact.php" method="POST">
                 <div class="form-group">
                     <label for="nimi">Nimi</label>
-                    <input type="text" class="form-control" id="nimi" placeholder="Lisää nimesi">
+                    <input type="text" class="form-control" id="nimi" name="nimi" placeholder="Lisää nimesi">
                 </div>
                 <div class="form-group">
                     <label for="sposti">Sähköpostiosite</label>
-                    <input type="email" id="sposti" class="form-control" placeholder="Lisää sähköpostiosoite">
+                    <input type="email" id="sposti" class="form-control" name="sposti" placeholder="Lisää sähköpostiosoite">
                 </div>
                 <div class="form-group">
-                    <textarea class="form-control" id="tarkennus" cols="30" rows="10" placeholder="Kerro millaista palvelua tarvitsisit"></textarea>
+                    <textarea class="form-control" name="tarkennus" id="tarkennus" cols="30" rows="10" placeholder="Kerro millaista palvelua tarvitsisit"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Lähetä</button>
+                <button type="submit" name="submit" class="btn btn-primary">Lähetä</button>
             </form>
         </div>
     </section>
