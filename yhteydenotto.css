@@ -31,10 +31,6 @@ header .link{
 }
 
 /*section container*/
-#name, #email, #palvelut, #tarkennus{
-    width: 25%;
-    margin: 5px;
-}
 
 
 /*Footer*/
