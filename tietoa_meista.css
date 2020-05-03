@@ -30,6 +30,23 @@ header .link{
     text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
+/*section container*/
+.container p{
+    font-size: 16px;
+}
+
+figure.col-sm-4{
+    margin-top: 1em;
+    border: solid 2px #1cb7ff;
+    padding: 10px;
+    
+}
+
+figure img {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
 /*Footer*/
 footer {
     font-size: 12px;
