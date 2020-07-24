@@ -23,12 +23,18 @@ header .link{
 .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url("1.jpg");
     background-size: cover;
     color: #ffffff;
-    height: 500px;
+    height: 250px;
     text-shadow: 0.25px 0.25px 0.25px #000000;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
 }
+
+.jumbotron h1 {
+    font-size: 50px;
+}
+
 
 /*section container*/
 
